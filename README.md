@@ -24,7 +24,7 @@ To set up the project locally, follow these steps:
     ```
 
 
-## Home page overview
+## MainPage overview
 
 ![HomePage](continut/Imagini/1.png)
 
