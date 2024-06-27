@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desen</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body style="background-color:rgb(32, 190, 17);">
+    <header class="hero">
+        <div class="hero-container">
+          <img src="Imagini/securitylock.png" alt="Security background image" class="hero-image" > <h1 class="hero-title">Paza si Protectie - MGSecurity</h1>
+        </div>
+      </header>
+    
+      <div class="nav">
+        <ul>
+          <li><a href="despre.html" target="_blank">Detalii</a></li>
+          <li><a href="inregistreaza.html" target="_blank">Înregistrează-te</a></li>
+          <li><a href="video.html" target="_blank">Video</a></li>
+          <li><a href="desen.html" target="_blank">Desen</a></li>
+        </ul>
+      </div> -->
+    <h1>Desen SVG</h1>
+
+    <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+        <!-- Gradient de fundal -->
+        <defs>
+          <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="rgb(11, 107, 181)"/>
+            <stop offset="100%" stop-color="rgb(11, 107, 181)"/>
+          </linearGradient>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+          
+        <!-- Corpul telefonului -->
+        <rect x="150" y="100" width="100" height="200" fill="#333" rx="20" ry="20" />
+          
+        <!-- Ecran -->
+        <rect x="160" y="110" width="80" height="180" fill="#000" rx="10" ry="10" />
+          
+        <!-- Difuzor -->
+        <rect x="170" y="120" width="60" height="20" fill="#666" rx="5" ry="5" />
+          
+        <!-- Buton -->
+        <circle cx="200" cy="280" r="15" fill="#666" />
+          
+        <!-- Text -->
+        <text x="50%" y="350" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#000">Apel în așteptare - client</text>
+          
+        <!-- Animație -->
+        <style>
+          @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+          }
+      
+          circle {
+            animation: pulse 1s infinite;
+          }
+        </style>
+      
+      </svg>
+      
+      
+      
+<!-- </body>
+</html> -->

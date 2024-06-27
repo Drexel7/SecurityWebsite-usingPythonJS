@@ -1,0 +1,42 @@
+<section onload="worker()">
+    <h2 style="text-align: center">Cumparaturi</h2>
+    <div class="product-form">
+        <p>
+            <label for="nume-produs">Produs:</label>
+            <input type="text" id="nume-produs">
+        </p>
+        
+        <p>
+            <label for="cantitate-produs">Cantitate:</label>
+            <input type="text" id="cantitate-produs">
+        </p>
+        
+        <p>
+            <input type="submit" value="Adauga" onclick="adaugaProdus()">
+        </p>
+        
+        <p>
+            <label for="store-type-local">Locul stocării:</label><br>
+            <input type="radio" id="store-type-local" checked name="storage-type" value="localStorage">
+            <label for="store-type-local">Local Storage</label><br>
+            <input type="radio" id="store-type-indexed" name="storage-type" value="indexedDB">
+            <label for="store-type-indexed">Indexed DB</label><br>
+        </p>
+        
+        <p>
+            <button id="clear-entries-btn" onclick="clearEntries()">Golire tabelă</button>
+        </p>
+    </div>
+    
+    
+
+    <table id="tabela-cumparaturi">
+        <tr>
+            <th>Nr.</th>
+            <th>Nume Produs</th>
+            <th>Cantitate</th>
+        </tr>
+    </table>
+
+
+</section>

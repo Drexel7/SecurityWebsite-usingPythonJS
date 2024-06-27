@@ -1,0 +1,299 @@
+.nav {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgba(12, 19, 75, 0.6);
+    transition: background-color 0.2s;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(12, 3, 48, 0.8);
+  }
+
+.nav ul li.active a {
+    background-color: rgba(0, 0, 0, 1); 
+    color: #fff; 
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('../Imagini/security.png');
+    background-size: cover;
+  }
+  
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    max-width: 20%;
+    max-height: 500px;
+    animation: image-pulse 1s infinite alternate ease-in-out; /* Animatie */
+  }
+  
+  .hero-title {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  @keyframes image-pulse {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.2;
+    }
+  }
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #4770ca;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+    text-align: left; 
+}
+
+.canvas-container {
+    width: 700px; 
+    height:300px; 
+    border: 2px solid #060606; 
+    margin-bottom: 10px; 
+  }
+  
+  canvas {
+    display: block; 
+  }
+  
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+    width: calc(100% - 160px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="color"] {
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button[type="submit"]:disabled:hover {
+    background-color: #ccc;
+}
+
+output {
+    display: inline-block;
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+@media print {
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        text-align: right;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-item {
+    margin: 10px;
+}
+
+/* pentru cumparaturi.html */
+
+.product-form p {
+    margin-bottom: 10px;
+}
+
+.product-form label {
+    margin-right: 10px;
+}
+
+.product-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.product-form input[type="submit"],
+.product-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-form input[type="submit"]:hover,
+.product-form button:hover {
+    background-color: #0056b3;
+}
+
+.product-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.verifica {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.verifica label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.verifica input[type="text"],
+.verifica input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.verifica input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.verifica input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.verifica #result-verifica {
+    margin-top: 10px;
+    font-weight: bold;
+}

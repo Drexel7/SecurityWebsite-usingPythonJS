@@ -1,0 +1,23 @@
+<!ELEMENT persoane (persoana+)>
+<!ELEMENT persoana (nume, prenume, varsta, adresa, telefon?, email?, experienta_profesionala?, educatie?)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT adresa (strada, numar, localitate, judet, tara)>
+<!ELEMENT strada (#PCDATA)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT experienta_profesionala (job)>
+<!ELEMENT job (titlu, companie, perioada)>
+<!ELEMENT titlu (#PCDATA)>
+<!ELEMENT companie (#PCDATA)>
+<!ELEMENT perioada (#PCDATA)>
+<!ELEMENT educatie (nivel, specializare, institutie, an_absolvire)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT specializare (#PCDATA)>
+<!ELEMENT institutie (#PCDATA)>
+<!ELEMENT an_absolvire (#PCDATA)>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ro">
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Învățare</title>
+    <link rel="stylesheet" href="css/stil.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        #colorpicker {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <header class="hero">
+        <div class="hero-container">
+            <img src="Imagini/securitylock.png" alt="Security background image" class="hero-image">
+            <h1 class="hero-title">Paza si Protectie - MGSecurity</h1>
+        </div>
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a href="despre.html" target="_blank">Detalii</a></li>
+            <li><a href="inregistreaza.html" target="_blank">Înregistrează-te</a></li>
+            <li><a href="video.html" target="_blank">Video</a></li>
+            <li><a href="desen.html" target="_blank">Desen</a></li>
+        </ul>
+    </div> -->
+
+    <!--Sectiunea 1-->
+    <h3>Secțiunea 1</h3>
+    <section>
+        <h3>Date and Time:</h3>
+
+        <p id="demo">
+            <button onclick="setInterval(data, 1000)">Afisare data</button>
+        </p>
+
+
+        <h3>URL:</h3>
+
+        <p id="demo2">
+            <button onclick="url()">Afisare URL</button>
+        </p>
+
+        <p><b>Versiune: </b></p>
+        <p id="versiune">
+            <button onclick="Versiune()">Versiune</button>
+        </p>
+
+        <p><b>Locatie: </b></p>
+        <p id="geo">
+            <button onclick="locationDa()">Locatie</button>
+        </p>
+
+        <h3>Browser:</h3>
+        <p id="demo3">
+            <button onclick="browser()">Browser</button>
+        </p>
+
+        <div id="demo3"></div>
+    </section>
+
+    <!--Sectiunea 2-->
+    <h3>Secțiunea 2</h3>
+    <div class="sectiunea1">
+        <div class="canvas-container">
+            <canvas id="canva1" onclick="drawCanvas(event)" width="700" height="300"></canvas>
+        </div>
+        <div>
+            <span>Selecteaza culoarea pentru contur:</span>
+            <input type="color" id="contur" name="favcolor" value="#ffffff">
+            <br>
+            <span>Selecteaza culoarea pentru font:</span>
+            <input type="color" id="fontcontur" name="favcolor" value="#000000">
+        </div>
+    </div>
+
+    <!--Sectiunea 3-->
+    <h3>Secțiunea 3</h3>
+    <section id="table-controls">
+        <h2>Inserare Linie/Coloana</h2>
+        <label for="rowPosition">Pozitie Linie:</label>
+        <input type="text" id="rowPosition" placeholder="e.g. 2">
+        <label for="columnPosition">Pozitie Coloana:</label>
+        <input type="text" id="columnPosition" placeholder="e.g. 3">
+        <label for="colorpicker">Culoare fundal:</label>
+        <input type="color" id="colorpicker">
+        <button id="insertRowBtn" onclick="insertRow()">Inserare Linie</button>
+        <button id="insertColumnBtn" onclick="insertColumn()">Inserare Coloana</button>
+    </section>
+    <table id="myTable">
+    </table>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

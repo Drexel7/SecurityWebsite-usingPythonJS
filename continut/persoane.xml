@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana id="1">
+        <nume>Maxim</nume>
+        <prenume>George</prenume>
+        <varsta>27</varsta>
+        <adresa>
+            <strada>Tudor Vladimirescu</strada>
+            <numar>19</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <numartelefon>0728670212</numartelefon>
+        <email>georgemaxim@gmail.com</email>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Ionescu</nume>
+        <prenume>Maria</prenume>
+        <varsta>30</varsta>
+        <adresa>
+            <strada>G. Ibraileanu</strada>
+            <numar>45</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <numartelefon>0756243276</numartelefon>
+        <email>mariaionescu@gmail.com</email>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Raileanu</nume>
+        <prenume>Stefan</prenume>
+        <varsta>19</varsta>
+        <adresa>
+            <strada>Cantacuzino</strada>
+            <numar>21</numar>
+            <localitate>Husi</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <numartelefon>0756413789</numartelefon>
+        <email>stefanraileanu@gmail.com</email>
+    </persoana>
+
+    <persoana id="4">
+        <nume>Petrisor</nume>
+        <prenume>Emma</prenume>
+        <varsta>24</varsta>
+        <adresa>
+            <strada>Lapusneanu</strada>
+            <numar>54</numar>
+            <localitate>Tg. Frumos</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <numartelefon>0765425312</numartelefon>
+        <email>emma.petrisor@gmail.com</email>
+    </persoana>
+
+    <persoana id="5">
+        <nume>Moga</nume>
+        <prenume>Siminna</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Santiago B.</strada>
+            <numar>23</numar>
+            <localitate>Madrid</localitate>
+            <judet>Madrid</judet>
+            <tara>Spania</tara>
+        </adresa>
+        <numartelefon>03425262872</numartelefon>
+        <email>siminnamoga@gmail.com</email>
+    </persoana>
+
+    <persoana id="6">
+        <nume>Marian</nume>
+        <prenume>Amihaiesei</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Palas</strada>
+            <numar>98</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <numartelefon>0765432314</numartelefon>
+        <email>amihaiesei.marian@gmail.com</email>
+    </persoana>
+
+</persoane>

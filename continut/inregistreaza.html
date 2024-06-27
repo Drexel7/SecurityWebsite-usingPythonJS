@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Înregistrează</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body style="background-color:rgb(158, 253, 253)">
+    <header class="hero">
+        <div class="hero-container">
+          <img src="Imagini/securitylock.png" alt="Security background image" class="hero-image" > <h1 class="hero-title">Paza si Protectie - MGSecurity</h1>
+        </div>
+      </header>
+    
+      <div class="nav">
+        <ul>
+          <li><a href="despre.html" target="_blank">Detalii</a></li>
+          <li><a href="inregistreaza.html" target="_blank">Înregistrează-te</a></li>
+          <li><a href="video.html" target="_blank">Video</a></li>
+          <li><a href="desen.html" target="_blank">Desen</a></li>
+        </ul>
+      </div> -->
+
+    <h1>Înregistrează</h1>
+    <form id="registerForm">
+        <fieldset>
+            <legend>Informații generale</legend>
+            <label for="username">Nume utilizator:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Parola:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="firstName">Nume:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Prenume:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informații personale</legend>
+            <label for="gender">Sexul:</label>
+            <select id="gender" name="gender">
+                <option value="male">Masculin</option>
+                <option value="female">Feminin</option>
+            </select><br>
+
+            <label for="favoriteFood">Mâncarea preferată:</label>
+            <input list="foodOptions" id="favoriteFood" name="favoriteFood">
+            <datalist id="foodOptions">
+                <option value="Pizza">
+                <option value="Mici">
+                <option value="Burger">
+                <option value="Shaorma">
+            </datalist><br>
+
+            <label for="favoriteColor">Culoarea preferată:</label>
+            <input type="color" id="favoriteColor" name="favoriteColor"><br>
+
+            <label for="birthdate">Data nașterii:</label>
+            <input type="date" id="birthdate" name="birthdate"><br>
+
+            <label for="birthtime">Ora nașterii:</label>
+            <input type="time" id="birthtime" name="birthtime"><br>
+            <label for="age">Vârsta:</label>
+            <input type="range" id="age" name="age" min="0" max="100" value="0" oninput="ageOutput.value = age.value"><br>
+            <output id="ageOutput" for="age">0</output><br>
+
+            <label for="website">Adresa paginii personale:</label>
+            <input type="url" id="website" name="website"><br>
+
+            <label for="description">Descriere:</label>
+            <textarea id="description" name="description"></textarea><br>
+        </fieldset>
+
+        <button id="registerBtn" type="submit" disabled>Înregistrează</button>
+    </form>
+
+</body>
+</html>
